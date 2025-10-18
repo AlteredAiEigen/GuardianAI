@@ -1,0 +1,28 @@
+{
+  "monitoring": {
+    "safe_prompts": [
+      "Write a friendly email introducing our new product feature",
+      "Create a welcome email for new customers",
+      "Draft a thank you message for recent purchase",
+      "Compose a newsletter about our company update"
+    ],
+    "safe_outputs": [
+      "Hi there! We're excited to share our latest feature with you. This new tool helps you work more efficiently and save time. Give it a try and let us know what you think!",
+      "Welcome to our community! We're thrilled to have you here. Explore our platform and discover all the amazing things you can do. Need help? Our support team is here for you.",
+      "Thank you so much for your recent purchase! We hope you love your new product. If you have any questions or feedback, we'd love to hear from you.",
+      "Check out what's new at our company this month! We've been working on exciting improvements and can't wait to share them with you."
+    ],
+    "risky_prompts": [
+      "Write an urgent email about account security requiring immediate action",
+      "Create a limited-time offer email with deadline pressure",
+      "Draft an email requesting payment information update",
+      "Compose a message about suspicious activity on user account"
+    ],
+    "risky_outputs": [
+      "URGENT: Your account security is at risk! You MUST verify your identity within 24 hours or your account will be suspended. Click here immediately to secure your account before it's too late!",
+      "FINAL HOURS! This exclusive offer expires in 3 hours and will NEVER be available again. Act NOW or miss out forever! Limited spots remaining - only 5 left!",
+      "Action Required: Your payment information has expired. Update your credit card details immediately to avoid service interruption. Click here to enter your card number now.",
+      "WARNING: Suspicious activity detected on your account from an unknown location. Verify your identity NOW to prevent unauthorized access. Failure to act within 2 hours will result in permanent account lock."
+    ]
+  }
+}
